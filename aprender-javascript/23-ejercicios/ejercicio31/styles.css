@@ -1,0 +1,63 @@
+.semaforo{
+    width: 70px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: rgb(5, 75, 10);
+    border-radius: 5px;;
+   
+}
+
+.luz{
+    margin: 0 auto;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+     border: 5px solid black;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+
+.rojo.activa{
+    background-color: red;
+}
+
+.amarillo.activa{
+    background-color: yellow;
+}
+
+.verde.activa{
+    background-color: green;
+}
+
+
+/* HECHO POR MI
+.semaforo{
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.caja-semaforo{
+    margin: 0 auto;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    padding: 50px;
+}
+
+.semaforo__circulo{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    background-color: gray;
+    border-color: #ccc;
+}
+
+.semaforo__circulo--verde{
+    background-color: green;
+}
+
+*/

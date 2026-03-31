@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos en JS</title>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <h1>Eventos de JavaScript con Víctor Robles WEB</h1>
+
+    <ul>
+        <li>
+            <p>Evento Click:</p>
+            <button id="botoncito">¡Hazme Clic!</button>
+        </li>
+
+        <li>
+            <p>Evento Doble Click:</p>
+            <button id="botonDoble">¡Dame dos Clic!</button>
+        </li>
+
+        <li>
+            <p>Evento MouseOver, MouseOut y MouseMove:</p>
+            <textarea id="cajaTexto">Pasa por encima de mi!!</textarea>
+        </li>
+
+        <li>
+            <p>Evento keydown, keyup y keypress:</p>
+            <input type="text" id="campoTexto" />
+        </li>
+
+        <li>
+            <p>Evento submit, input, focus, blur y change:</p>
+
+            <form id="superFormulario">
+                <input type="text" placeholder="Nombre" id="nombre" />
+                <br />
+                <input type="email" placeholder="Correo Electronico" id="email" />
+                <br />
+
+                <select id="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+                <br />
+                <input type="submit" value="Enviar" />
+            </form>
+        </li>
+
+        <li>
+            <p>Evento copy, paste, cut, contextmenu:</p>
+
+            <input type="text" id="portapapeles" value="Texto para copiar!!!" />
+        </li>
+
+        <li>
+            <p>Dejar de escuchar click:</p>
+            <button id="botoncito2">¡Hazme otro Clic!</button>
+        </li>
+
+        <li id="cajaPadre">
+            <p>Propagación:</p>
+            <button id="botonHijo">¡Clickame!</button>
+        </li>
+
+
+
+
+
+    </ul>
+</body>
+
+</html>
