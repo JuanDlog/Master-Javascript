@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 38 JS</title>
+
+    <script src="ejercicio38.js" defer></script>
+
+    <style>
+        .info{
+            display: none;
+            border: 5px dashed black;
+            padding: 7;
+            margin: 7px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Ejercicio 38 JS - Víctor Robles WEB</h1>
+
+    <form action="#" method="post" id="formulario">
+
+        <label for="nombre">Nombre:</label> <br />
+        <input type="text" id="nombre" name="nombre" />
+        <span id="error__nombre"></span> <br /> <br />
+
+        <label for="apellidos">Apellidos:</label> <br />
+        <input type="text" id="apellidos" name="apellidos" />
+        <span id="error__apellidos"></span> <br /><br />
+
+        <label for="edad">Edad:</label> <br />
+        <input type="number" id="edad" name="edad" />
+        <span id="error__edad"></span> <br /> <br />
+
+        <input type="submit" value="Enviar" id="submit"/>
+    </form>
+
+    <div class="info">
+        <h3>Información del usuario:</h3>
+
+        <hr/>
+
+        <p id="info_nombre">
+            Nombre: <strong></strong>
+        </p>
+
+        <p id="info_apellidos">
+            Apellidos <strong></strong>
+        </p>
+
+        <p id="info_edad">
+            Edad: <strong></strong>
+        </p>
+
+
+
+    </div>
+
+
+    <!-- HECHO POR MI
+    <form id="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre..." />
+        <br />
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos..." />
+        <br />
+        <label for="edad">Edad</label>
+        <input type="text" id="edad" name="edad" placeholder="Edad..." />
+        <br/>
+        <input type="submit" id="enviar" value="Enviar"/>
+    </form>
+
+    <div id="mostrar">
+        <p id="mostrar-nombre"></p>
+        <p id="mostrar-apellidos"></p>
+        <p id="mostrar-edad"></p>
+    </div>
+
+-->
+</body>
+
+</html>
